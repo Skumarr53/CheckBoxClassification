@@ -57,7 +57,7 @@ weighted avg       0.99      0.99      0.99      1629
 ![](imgs/Detection.png  "Acord_823_2011_10_p1_479_noi_brit_page1.png") | ![](imgs/Detection1.png  "ACORD_139_2004_03_p1_80_brit_page1.png")
 ![](imgs/Detection2.png "ACORD_140_2016_03_p1_127_noi_page1.png") | ![](imgs/Detection3.png  "Acord_129_p1_291_neg02rot_page1.png")
 
-### Detection Results:
+### Classification Results:
 - ![#007500](https://via.placeholder.com/15/007500/007500.png) `selected`
 - ![#FF0000](https://via.placeholder.com/15/FF0000/FF0000.png) `Not selected`
 
