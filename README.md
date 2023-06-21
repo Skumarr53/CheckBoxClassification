@@ -13,7 +13,7 @@
 
 ## Introduction
 
-Various types of information can be present when processing documents like forms and statements. The checkbox items, one type of item, are found in many forms and documents. A vital part of information extraction is identifying checkboxes and determining whether they are selected or not. An approach is presented for extracting information from checkboxes in this project. This project is designed to be used as a ready-to-go solution for similar use cases with minimal modifications.         
+When processing documents such as forms and statements, a range of information can be encountered. Among these, checkbox items are commonly found in various forms and documents. Identifying these checkboxes and determining their selection status is crucial for extracting information. In this project, an approach is introduced to extract information from checkboxes. The aim is to provide a readily usable solution for similar scenarios with minimal adjustments.       
 
 ## Requirements
 
@@ -23,12 +23,12 @@ The classification check involves 2 steps
 2. Classification
    
 ### Check Box detection
- To accomplish this task, we can use an open source project "BoxDetect" based on OpenCV, which detects rectangular shapes such as characters or checkboxes on scanned forms. Visit the GitHub page for more details.
+In order to achieve this objective, we can utilize "BoxDetect," an open source project that relies on OpenCV. This project is designed to identify rectangular shapes such as characters or checkboxes on scanned forms. For additional information, please refer to the GitHub page.
 
  https://github.com/karolzak/boxdetect
 
 ### Check Box Classification
-To classify checkbox values, we built a shallow CNN model that was trained on public data consisting of classes selected, unselected, and not checkboxes. After the detection step, the checkbox coordinates are used to crop images and then fed into the CNN model to make predictions.
+We developed a shallow CNN model to categorize checkbox values, which underwent training on publicly available data encompassing three classes: selected, unselected, and non-checkboxes. Once the detection phase is complete, the checkbox coordinates are employed to extract and feed images into the CNN model for prediction purposes.
 
 [CheckBox_Classification.ipynb](CheckBox_Classification.ipynb)  includes codes for implementing the above steps.  
 
